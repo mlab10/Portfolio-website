@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Myriam's Portfolio Website</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+<!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Google Translate Element -->
+<div id="google_translate_element" style="display:none;"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: 'en',
+        includedLanguages: 'en,fr',
+        autoDisplay: false
+      },
+      'google_translate_element'
+    );
+  }
+
+  function translatePage(lang) {
+    const select = document.querySelector(".goog-te-combo");
+
+    if (select) {
+      select.value = lang;
+      select.dispatchEvent(new Event("change"));
+    }
+  }
+</script>
+
+<script
+  type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
+
+<!-- Navbar -->
+  <nav class="py-3 navbar navbar-expand-lg fixed-top auto-hiding-navbar navbar-light bg-light">
+     <div class="container">
+       <a class="navbar-brand" href="#">My Portfolio</a>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="#about-me">About me</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#how-i-work">How I Work</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#projects">Projects</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contact">Contact</a>
+           </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#" onclick="translatePage('fr')">
+                  French
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#" onclick="translatePage('en')">
+                  English
+                </a>
+              </li>
+            </ul>
+          </li>
+         </ul>
+       </div>
+     </div>
+  </nav>
+<!-- Navbar End -->
+</body>
+
+<!-- Hero section -->
+          <section id="hero">
+              <div class="container">
+                  <div class="row">
+                      <div class="col">
+                          <h1>Hello,<br>I am Myriam Labissiere</h1>
+                          <p>
+                            Welcome to my portfolio website! I am a passionate developer with experience in creating engaging web experiences.
+                            I am excited to share my projects and skills with you. Feel free to explore and contact me for any inquiries or collaborations.
+                          </p>
+                       </div>
+                       <div class="col">
+                          <!-- Image for hero section -->
+                           <img src=https://www.veggipedia.nl/_next/image?url=https%3A%2F%2Fveggipedia-cms.production.taks.zooma.cloud%2Fassets%2FUploads%2FProducts%2FAardbei-fruit-veggipedia__FitMaxWzYwMCw2MDBd.png&w=3840&q=75 alt="...">
+                       </div>
+                  </div>
+              </div>
+          </section>
+          <!-- Hero section ends here -->
+
+<!-- About me -->
+    <section id="about-me">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <!-- Image for About me -->
+                     <img src="https://images.podos.io/mvkhb6ozorrpqkrhagetsfsi9sqdmx0idvoadrxgkr4igptn.jpg.jpg?w=1200&h=auto" alt="..." class="img-fluid"/>
+                </div>
+                <div class="col">
+                        <h1>About Me</h1>
+                        <p>
+                          I discovered coding over 10 years ago at uottawa's STEM summer camp and have been passionate about it ever since. 
+                          I've tried many things over the years like game, web and mobile application development as well as data analysis and visualization.
+                        </p>
+                        <p>
+                          I like to rock-climb and solve all kinds of puzzles such as crosswords, jigsaw puzzles, wordle and sudoku. 
+                          I also enjoy reading and learning new things.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End of About Me -->
+
+<!-- How I work -->
+    <section id="how-i-work">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                        <h1>How I Work</h1>
+                        <p>I naturally approach work like a puzzle: 
+                          I like understanding how all the pieces connect, identifying root causes, and finding thoughtful solutions rather than quick fixes. 
+                          I value seeing things through to completion and take pride in delivering work that is well thought out and fully resolved. 
+                          If there’s a challenge, ambiguity, or something that “doesn’t quite fit,” I’m motivated to dig deeper until it makes sense.</p>
+                        <p>When working with me, transparency, honesty and team work go a long way. 
+                          I value direct feedback, early collaboration, and discussions focused on solving the problem rather than assigning blame. 
+                          I prefer organized communication and clear expectations, but I’m flexible in how we work together. 
+                          Written communication is often helpful because it gives space to think through ideas carefully, especially for complex problems. 
+                          At the same time, I enjoy collaborative discussions when brainstorming or troubleshooting challenges together.
+                        </p>
+                </div>
+                <div class="col">
+                    <!-- Image for How I Work -->
+                     <img src="https://imagekit.gallup.com/fusion/CSFCMSEN/b469288d-d2b2-4702-910a-7a6d0a7bd64e.png" alt="..." class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End of How I work -->
+
+
+<!-- Projects section -->
+  <section id="projects">
+    <div class="container">
+      <div class="row align-items-center projects">
+        <div class="col"> 
+          <h1>My Projects</h1>
+          <p>Here are some of the projects I've worked on and plan to work on:</p>
+        </div>        
+      <div class="projects-scroll">
+          <div class="col">
+            <div class="card mb-3">
+              <a href="ComingSoon.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAg2n8qr42ZUNBaUngnKhPObM58_3s2BwKYQ&s" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Service site</h5>
+                <p class="card-text">A simple service website for a local business.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <a href="ComingSoon.html">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkBhDC_oECPMdSD2eWj3_0vyFfCc4ncTI1Ag&s" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Memory game</h5>
+                <p class="card-text">When's the last time you played a memory game? I created a fun and interactive memory game that challenges players to match pairs of cards. It's a great way to test your memory skills and have fun at the same time!
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <a href="ComingSoon.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN8MFZQ8z20zEtWenP44d4JAGQ3d6yANZzdg&s" class="card-img-top" alt="...">
+              </a>  
+              <div class="card-body">
+                <h5 class="card-title">E-commerce website</h5>
+                <p class="card-text">I built a fully responsive e-commerce website using modern web technologies, featuring a seamless shopping experience and robust backend functionality.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <a href="ComingSoon.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS01imUkSfgF-4m3LsdKTDCi2LYw8L8aYwzXg&s" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Data analysis/visualization</h5>
+                <p class="card-text">I analyze E-commerce data and create visualizations to help businesses make informed decisions.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3">
+              <a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" class="card-img-top" alt="...">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">More to come</h5>
+                <p class="card-text">As time passes, I will be adding more projects to this section.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End of Projects Section -->
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row align-items-center projects">
+      <div class="col">
+        <h1>Contact me</h1>
+
+        <p>
+          Feel free to reach out if you have any questions, want to collaborate,
+          or just say hello! I'm always looking for new opportunities to connect
+          and work together.
+        </p>
+
+        <!-- Buttons Container -->
+        <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+          <a href="mailto:myriamatwork@gmail.com" class="custom-btn-green">
+            <i class="bi bi-envelope-fill"></i> Email Me
+          </a>
+          <a href="https://github.com/mlab10" class="custom-btn-green">
+            <i class="bi bi-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/myriam-labissiere/" class="custom-btn-green">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of contact section -->
+
+</html>

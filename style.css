@@ -1,0 +1,161 @@
+body{
+    display: block;
+    overflow-x: hidden;
+    background-color: #F9F8FE;
+}
+
+/* Styling for Navbar */
+nav{
+    -webkit-text-fill-color: #2E5912;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+nav ul li a{
+    font-size: 22px;
+    margin: auto 10px; ;
+}
+
+nav ul li a:hover{
+    background-color: #FFADAD;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #FFADAD !important;
+  color: #2E5912 !important;
+}
+
+
+
+/* Styling for Hero Section */
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #2E5912;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+
+#hero img{
+    max-width: 130% !important;
+    width: 130%;
+}
+
+/* Styling for the Projects Section */
+#projects .projects{
+    margin-bottom: 50px;
+}
+
+/* Horizontal scroll container */
+.projects-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 10px;
+    scroll-behavior: smooth;
+}
+
+/* Scrollbar styling */
+.projects-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+.projects-scroll::-webkit-scrollbar-track {
+    background: #F9F8FE;
+    border-radius: 10px;
+}
+
+.projects-scroll::-webkit-scrollbar-thumb {
+    background: #FFADAD;
+    border-radius: 10px;
+}
+
+.projects-scroll::-webkit-scrollbar-thumb:hover {
+    background: #FFADAD;
+}
+
+/* Individual card wrapper */
+#projects .col {
+    min-width: 300px;
+    flex: 0 0 auto;
+}
+
+/* Card styling */
+#projects .card {
+    width: 300px;
+    background-color: #2E5912;
+    -webkit-text-fill-color: #F9F8FE;
+}
+
+
+/* contact section styling */
+#contact{     
+    text-align: center;     
+    background-color: #2E5912;
+    color: #F9F8FE;
+}
+
+#contact h1{
+    text-align: center;
+    color: #F9F8FE;
+}
+
+.custom-btn-green,
+.custom-btn-pink {
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+/* Green Button */
+.custom-btn-green {
+  background-color: #2E5912;
+  color: white;
+  border: 2px solid #2E5912;
+}
+
+.custom-btn-green:hover {
+  background-color: #FFADAD;
+  color: #2E5912;
+}

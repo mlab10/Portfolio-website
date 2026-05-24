@@ -1,0 +1,73 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('https://www.marthastewart.com/thmb/CaK5xBpGpmIN4Pmo-_c7VLEUjXY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1399843499-df017b4142cf41a99dc125b5561037a0.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: #FFADAD;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the top-right corner */
+.topright {
+  position: absolute;
+  top: 0;
+  right: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.card {
+  /* Add a white background color to the card container */
+  background-color: #2E5912;
+  /* Add some padding */
+  padding: 5px;
+  /* Add a border radius to make the corners round */
+  border-radius: 5px;
+}
+
+.card .bi {
+  /* Add a white color to the icon */
+  color: #FFADAD;
+}
