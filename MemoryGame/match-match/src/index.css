@@ -1,0 +1,13 @@
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* base styles */
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 2em;
+  background: #118AB2;
+  color: #000A1F;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}

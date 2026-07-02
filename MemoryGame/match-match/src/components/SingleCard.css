@@ -1,0 +1,75 @@
+.card {
+    position: relative;
+}
+
+.back {
+  background-color: #FFD166;
+  padding: 2px;
+  border:#000A1F 3px solid;
+  Margin-top: 10px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 5em;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  border: 3px solid #000A1F;
+  Margin-top: 10px;
+  padding: 2px;
+}
+
+/* front of card - the image */
+.card .front {
+  position: absolute;
+  display: none;
+}
+
+.flipped .front {
+  display: block;
+  padding: 2px;
+  position: relative;
+}
+
+/*back of the card - the yellow square with a question mark*/
+.card .back {
+  display: block;
+}
+
+.flipped .back {
+  display: none;
+  position: relative;
+}
+
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+select{
+
+    font-size:0.7em;
+    padding:10px;
+    margin:10px;
+}
+
+.win-box{
+
+    margin:30px auto;
+
+    padding:20px;
+
+    width:400px;
+
+    background:white;
+
+    border:4px solid #000A1F;
+
+    border-radius:8px;
+
+}
