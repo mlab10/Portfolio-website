@@ -79,48 +79,26 @@ button{
 
 /* Styling for the Projects Section */
 #projects .projects{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
-/* Horizontal scroll container */
-.projects-scroll {
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    padding: 20px 10px;
-    scroll-behavior: smooth;
+#projects .projects h1{
+    color: #2E5912;
 }
 
-/* Scrollbar styling */
-.projects-scroll::-webkit-scrollbar {
-    height: 10px;
-}
 
-.projects-scroll::-webkit-scrollbar-track {
-    background: #F9F8FE;
-    border-radius: 10px;
-}
-
-.projects-scroll::-webkit-scrollbar-thumb {
-    background: #FFADAD;
-    border-radius: 10px;
-}
-
-.projects-scroll::-webkit-scrollbar-thumb:hover {
-    background: #FFADAD;
-}
-
-/* Individual card wrapper */
-#projects .col {
-    min-width: 300px;
-    flex: 0 0 auto;
-}
 
 /* Card styling */
 #projects .card {
-    width: 300px;
+    width: auto;
     background-color: #2E5912;
     -webkit-text-fill-color: #F9F8FE;
+    height: 450px;
+}
+
+#projects .card img{
+    width: 100%;
+    height: 300px;
 }
 
 
